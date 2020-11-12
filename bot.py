@@ -3,7 +3,7 @@ import objects
 from api import ChatWars
 stamp1 = objects.time_now()
 cw = ChatWars(os.environ['LOGIN'], os.environ['PASS'])
-objects.start_message(None, stamp1)
+objects.AuthCentre(os.environ['TOKEN']).start_message(stamp1)
 
 
 def api_handler():
