@@ -1,2 +1,2 @@
 pika==0.13.1
-e-objects>=1.0.7
+e-objects==1.2.0
